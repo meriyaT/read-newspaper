@@ -17,7 +17,7 @@ jobs:
     - name: npm install and build
       run: |
         npm install
-        npm run build -- --public-url /read-top-news-today/
+        npm run build -- --public-url /read-newspaper/
     - name: Deploy site to gh-pages branch
       uses: crazy-max/ghaction-github-pages@v1.4.0
       env:
